@@ -7,7 +7,7 @@ export default function() {
       htmlAfter: ""
     },
     {
-      title: "Blog Posts",
+      title: "Blog Posts11",
       htmlBefore: '<i class="material-icons">vertical_split</i>',
       to: "/blog-posts",
     },

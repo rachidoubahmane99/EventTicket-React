@@ -3,10 +3,13 @@ import { EventEmitter } from "events";
 import Dispatcher from "./dispatcher";
 import Constants from "./constants";
 import getSidebarNavItems from "../data/sidebar-nav-items";
+import getManagerSidebarNavItems from "../data/manager-sidebar-nav-items";
+
 
 let _store = {
   menuVisible: false,
-  navItems: getSidebarNavItems()
+  navItems: getSidebarNavItems(),
+  managernavItems : getManagerSidebarNavItems()
 };
 
 class Store extends EventEmitter {
@@ -40,7 +43,11 @@ class Store extends EventEmitter {
   getSidebarItems() {
     return _store.navItems;
   }
+  getManagerSidebarItems() {
+    return _store.managernavItems;
+  }
 
+  
   addChangeListener(callback) {
     this.on(Constants.CHANGE, callback);
   }

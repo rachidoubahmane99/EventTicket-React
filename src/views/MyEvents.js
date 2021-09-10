@@ -21,12 +21,10 @@ class Tables extends React.Component {
   axios.get("http://localhost:8080/events/public/1", { headers })
   .then(res => { 
     this.setState({
-     
-      events: res.data
-  });
-
+       events: res.data
+    });
    
-  })
+  });
 
 //fetch private Events
 axios.get("http://localhost:8080/events/private/1", { headers })
@@ -35,7 +33,6 @@ axios.get("http://localhost:8080/events/private/1", { headers })
    
     privateEvents: res.data
 });
-
  
 })
 
@@ -44,6 +41,8 @@ axios.get("http://localhost:8080/events/private/1", { headers })
 
 
   render() {
+
+    
      const tableRows = this.state.events.map((event, index) =>
     
       event.map((subitem, i) => 

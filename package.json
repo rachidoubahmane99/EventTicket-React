@@ -4,6 +4,9 @@
   "private": true,
   "homepage": "./",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
     "axios": "^0.21.1",
     "camelize": "^1.0.0",
     "chart.js": "^2.7.3",
@@ -15,6 +18,7 @@
     "jspdf": "^2.3.1",
     "lodash.find": "^4.6.0",
     "react": "^16.6.3",
+    "react-bootstrap": "^1.6.3",
     "react-component-export-image": "^1.0.6",
     "react-dom": "^16.6.3",
     "react-dom-server": "0.0.5",

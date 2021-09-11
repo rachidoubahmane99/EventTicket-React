@@ -14,7 +14,8 @@ Event Ticketing System  React Front End <br />
 
 > ✨ **Note:** Template Used 
 <p align="center">
-<a href="https://designrevision.com/downloads/shards-dashboard-lite-react"> </a><br /> 
+
+[Link :] (https://designrevision.com/downloads/shards-dashboard-lite-react)
 </p> .
 
 <br />
@@ -29,7 +30,8 @@ Event Ticketing System  React Front End <br />
 
 ### Project Structure
 
-- SpringBoot Api Here : <a href="https://github.com/rachidoubahmane99/EventTicket-springboot.git"> </a>
+- [SpringBoot Api  :](https://github.com/rachidoubahmane99/EventTicket-springboot.git)
+
 
 <br />
 

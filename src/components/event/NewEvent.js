@@ -60,6 +60,7 @@ class NewEvent extends React.Component {
     capacity :'',
     filedata:'',
     status:'',
+    active : 1,
 
     };
     
@@ -74,6 +75,7 @@ class NewEvent extends React.Component {
         time: this.state.time,
         capacity:  this.state.capacity,
         state: this.state.status,
+        active : this.state.active,
         customTicket: {
           logo:	"logo File",
           titleSize:	this.state.titlesize[0],

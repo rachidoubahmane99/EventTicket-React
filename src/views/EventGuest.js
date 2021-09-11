@@ -70,16 +70,11 @@ class BlogPosts extends React.Component {
   
   axios.get(url, { headers })
   .then(res => {
-    if(res.data==null){
-      this.setState({
-        redirect: "/errors"
-    });
-    }else{
       this.setState({
         EVent: res.data,
         CustomTicket : res.data.customTicket
     });
-    }
+    
    
 
    
@@ -87,9 +82,7 @@ class BlogPosts extends React.Component {
   }
 
   render() {
-    if (this.state.redirect!=null) {
-      return <Redirect to={this.state.redirect} />
-    }
+    
     const eventId = this.state.EVent.id;
     return (
       <Container fluid className="main-content-container px-4">

@@ -15,9 +15,9 @@ const Colors = () => (
       <div
         className="bg-primary text-white text-center rounded p-3 "
         style={{ boxShadow: "inset 0 0 5px rgba(0,0,0,.2)" }}>
-          Primary
+          Free Template
         </div>
-        <FormRadio  >
+        <FormRadio defaultChecked  >
         Choose
       </FormRadio>
     </Col>
@@ -27,18 +27,18 @@ const Colors = () => (
       <div
         className="bg-secondary text-white text-center rounded p-3"
         style={{ boxShadow: "inset 0 0 5px rgba(0,0,0,.2)" }}>
-        Secondary
+        Paid 
       </div>
-      <FormRadio >Checked</FormRadio>
+      <FormRadio disabled >Checked</FormRadio>
     </Col>
     <Col className="mb-4">
     
       <div
         className="bg-success text-white text-center rounded p-3"
         style={{ boxShadow: "inset 0 0 5px rgba(0,0,0,.2)" }}>
-        Success
+        Paid
       </div>
-      <FormRadio >Checked</FormRadio>
+      <FormRadio disabled >Checked</FormRadio>
     </Col>
 
   </Row>

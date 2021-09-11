@@ -13,11 +13,15 @@ import ManagerProfile from "./views/ManagerProfile";
 import UserProfileLite from "./views/UserProfileLite";
 //import AddNewPost from "./views/NewEvent";
 import Errors from "./views/Errors";
+import GuestList from "./views/GuestsList";
 import CreateNewEvent from "./views/CreateNewEvent";
 import ComponentsOverview from "./views/ComponentsOverview";
 import Tables from "./views/Tablesold";
 import MyEvents from "./views/MyEvents";
 import NewEvent from "./views/NewEvent";
+
+import managerDashboard from "./views/managerDashboard";
+
 //import BlogPosts from "./views/BlogPosts";
 import Event from "./views/EventGuest"
 import TicketDownload from "./views/DownloadTicket"
@@ -65,7 +69,7 @@ export default
   {
     path: "/Manager",
     layout: ManagerLayout,
-    component: BlogOverview
+    component: managerDashboard
    
     
   },
@@ -75,7 +79,11 @@ export default
     layout: ManagerLayout,
     component: MyEvents
   },
-  
+  {
+    path: "/guestList",
+    layout: ManagerLayout,
+    component: GuestList
+  },
   {
     path: "/new-event",
     layout: ManagerLayout,

@@ -51,9 +51,17 @@ axios.get("http://localhost:8080/events/private/1", { headers })
         <td>{subitem.title}</td>
         <td>{subitem.date}</td>
         <td>{subitem.capacity}</td>
-        <td> <a href={'/errors?event=' + subitem.id}><Button outline pill theme="success">
+        <td>
+        <a href={'/Ticket?id=' + subitem.id}><Button outline pill theme="success">
+       Event Link
+      </Button></a>
+        <a href={'/guestList?event=' + subitem.id}><Button outline pill >
         View Guests
-      </Button></a></td>
+      </Button></a>
+      <a href=""><Button outline pill theme="danger">
+       Cancel Event
+      </Button></a>
+      </td>
       </tr>
       )
       );
@@ -70,11 +78,11 @@ axios.get("http://localhost:8080/events/private/1", { headers })
        <a href={'/guset/pv?id=' + subitem.id}><Button outline pill theme="success">
        Invite Guest
       </Button></a>
-           <a href={'/errors?event=' + subitem.id}><Button outline pill>
+           <a href={'/guestList?event=' + subitem.id}><Button outline pill>
         View Guests
       </Button></a>
       <a href=""><Button outline pill theme="danger">
-       Delete Event
+       Cancel Event
       </Button></a>
       </td>
       </tr>
@@ -111,7 +119,7 @@ axios.get("http://localhost:8080/events/private/1", { headers })
                   <th scope="col" className="border-0">
                     Capacity
                   </th>
-                  <th scope="col" className="border-0" style=  {{width: '200px'}}>
+                  <th scope="col" className="border-0" style=  {{width: '350px'}}>
                     Action
                   </th>
                 </tr>

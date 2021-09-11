@@ -45,14 +45,14 @@ UserDetails.propTypes = {
 
 UserDetails.defaultProps = {
   userDetails: {
-    name: "Sierra Brooks",
-    avatar: require("./../../images/avatars/0.jpg"),
-    jobTitle: "Project Manager",
+    name: "Rachid Dev",
+    avatar: require("./../../images/avatars/logo.png"),
+    jobTitle: "Event  Manager",
     performanceReportTitle: "Workload",
     performanceReportValue: 74,
     metaTitle: "Description",
     metaValue:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eaque, quidem, commodi soluta qui quae minima obcaecati quod dolorum sint alias, possimus illum assumenda eligendi cumque?"
+      "this is a simple Bio for My event"
   }
 };
 

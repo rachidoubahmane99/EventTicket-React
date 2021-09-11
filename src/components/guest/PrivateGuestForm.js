@@ -123,8 +123,8 @@ class GuestForm extends React.Component {
                           "</tr>"+
                           "<tr>"+
                               "<td style='text-align:center;'>"+
-                                "<a href='https://rakeshmandal.com' title='logo' target='_blank'>"+
-                                  "<img width='60' src='https://i.ibb.co/hL4XZp2/android-chrome-192x192.png' title='logo' alt='logo'>"+
+                                "<a href='#' title='logo' target='_blank'>"+
+                                  "<img width='60' src='https://i.ibb.co/qnFSkRL/e2850fb0c4f04e0abd3f726e2f718968.png' title='logo' alt='logo'>"+
                                 "</a>"+
                               "</td>"+
                           "</tr>"+
@@ -157,7 +157,7 @@ class GuestForm extends React.Component {
                           "</tr>"+
                           "<tr>"+
                               "<td style='text-align:center;'>"+
-                                  "<p style='font-size:14px; color:rgba(69, 80, 86, 0.7411764705882353); line-height:18px; margin:0 0 0;'>&copy; <strong>www.evently.com</strong></p>"+
+                                  "<p style='font-size:14px; color:rgba(69, 80, 86, 0.7411764705882353); line-height:18px; margin:0 0 0;'>&copy; <strong>www.planEvent.com</strong></p>"+
                              "</td>"+
                           "</tr>"+
                           "<tr>"+
